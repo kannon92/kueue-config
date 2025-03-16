@@ -1,0 +1,9 @@
+apiVersion: kueue.kueue/v1alpha1
+kind: Config
+metadata:
+  labels:
+    app.kubernetes.io/name: kueue-config
+    app.kubernetes.io/managed-by: kustomize
+  name: config-sample
+spec:
+  # TODO(user): Add fields here
